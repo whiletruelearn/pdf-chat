@@ -1,0 +1,36 @@
+# Compiled python files
+*.pyc
+__pycache__/
+
+
+embeddings/*
+pdfs/*
+
+# Virtual environments
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Ignore local configuration files
+config.yaml
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore package-lock.json for Node.js projects
+package-lock.json
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
